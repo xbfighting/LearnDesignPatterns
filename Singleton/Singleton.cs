@@ -42,20 +42,20 @@ namespace Singleton
     /// 多线程时可以保证不会产生多个实例 （懒汉模式）
     /// <remarks>性能不好</remarks>
     /// </summary>
-    public class SingletonLocking
+    public class Singleton_Locking
     {
-        private static SingletonLocking instance;
+        private static Singleton_Locking instance;
 
         /// <summary>
         /// 程序运行时创建一个静态制度的进程辅助
         /// </summary>
         private static readonly object syncRoot = new object();
 
-        private SingletonLocking()
+        private Singleton_Locking()
         {
         }
 
-        public static SingletonLocking GetInstance()
+        public static Singleton_Locking GetInstance()
         {
             /*
              * lock是确保当一个线程位于代码的临界区时，另一个线程不进入临界区。
@@ -67,7 +67,7 @@ namespace Singleton
             {
                 if (instance == null)
                 {
-                    instance = new SingletonLocking();
+                    instance = new Singleton_Locking();
                 }
             }
             return instance;
@@ -113,26 +113,28 @@ namespace Singleton
 
             return instance;
         }
+    }
 
+
+
+    /// <summary>
+    /// 静态初始化 单例（饿汉模式）
+    /// <remarks>sealed 防止被派生，而派生可能会增加实例</remarks>
+    /// </summary>
+    public sealed class Singleton_Static_Instance
+    {
         /// <summary>
-        /// 静态初始化 单例（饿汉模式）
-        /// <remarks>sealed 防止被派生，而派生可能会增加实例</remarks>
+        /// readonly 在第一次引用类的任何成员时创建实例，公共语言运行库负责处理变量初始化
         /// </summary>
-        public sealed class Singleton_Static_Instance
+        private static readonly Singleton_Static_Instance instance = new Singleton_Static_Instance();
+
+        private Singleton_Static_Instance()
         {
-            /// <summary>
-            /// readonly 在第一次引用类的任何成员时创建实例，公共语言运行库负责处理变量初始化
-            /// </summary>
-            private static readonly Singleton_Static_Instance instance = new Singleton_Static_Instance();
+        }
 
-            private Singleton_Static_Instance()
-            {
-            }
-
-            public static Singleton_Static_Instance GetInstance()
-            {
-                return instance;
-            }
+        public static Singleton_Static_Instance GetInstance()
+        {
+            return instance;
         }
     }
 }
