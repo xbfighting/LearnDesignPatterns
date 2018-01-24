@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strate
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipmentTest", "ShipmentTest\ShipmentTest.csproj", "{A8C3B3D6-839C-494A-9EF2-6F59898A2DDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{92AE74CE-DF55-4D10-B10F-67D60A2C4916}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{A8C3B3D6-839C-494A-9EF2-6F59898A2DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8C3B3D6-839C-494A-9EF2-6F59898A2DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8C3B3D6-839C-494A-9EF2-6F59898A2DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92AE74CE-DF55-4D10-B10F-67D60A2C4916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92AE74CE-DF55-4D10-B10F-67D60A2C4916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92AE74CE-DF55-4D10-B10F-67D60A2C4916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92AE74CE-DF55-4D10-B10F-67D60A2C4916}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
