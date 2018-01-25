@@ -16,5 +16,5 @@
 ![此处输入图片的描述][2]
 
 
-  [2]: https://raw.githubusercontent.com/xbfighting/LearnDesignPatterns/master/DesignPatternsPractices/Images/C1/c1_uml2.png
+  [2]: https://raw.githubusercontent.com/xbfighting/LearnDesignPatterns/master/DesignPatternsPractices/Images/C1/c1_uml_2.png
   
