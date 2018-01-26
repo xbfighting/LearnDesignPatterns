@@ -13,6 +13,7 @@ namespace SimpleFactoryPattern.Tests
     public class OperationFactoryTests
     {
         private Operation _operation;
+
         [SetUp]
         public void SetUp()
         {
@@ -109,23 +110,23 @@ namespace SimpleFactoryPattern.Tests
         }
 
         // TODO: Exception test
-        [Test]
-        public void Test_CreateOperate_Div_Zero()
-        {
-            // given
-            var expectedResult = new Exception("除数不能为0。");
+        //[Test]
+        //    public void Test_CreateOperate_Div_Zero()
+        //    {
+        //        // given
+        //        var expectedResult = new Exception("除数不能为0。");
 
-            var operation = OperationFactory.CreateOperate("");
-            operation.NumberA = _operation.NumberA;
-            operation.NumberB = 0;
+        //        var operation = OperationFactory.CreateOperate("");
+        //        operation.NumberA = _operation.NumberA;
+        //        operation.NumberB = 0;
 
-            //// when
-            var ex = Assert.Throws<Exception>(delegate { operation.GetResult(); });
-            //// then
+        //        //// when
+        //        var ex = Assert.Throws<Exception>(delegate { operation.GetResult(); });
+        //        //// then
 
-            //Assert.AreEqual(ex.Message, expectedResult.Message);
-            //Assert.Throws(expectedResult.GetType(), delegate { operation.GetResult(); });
-            Assert.Throws(typeof (Exception), delegate { operation.GetResult(); });
-        }
+        //        //Assert.AreEqual(ex.Message, expectedResult.Message);
+        //        //Assert.Throws(expectedResult.GetType(), delegate { operation.GetResult(); });
+        //        Assert.Throws(typeof (Exception), delegate { operation.GetResult(); });
+        //    }
     }
 }
