@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter_2", "Chapter_2", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyMode", "StrategyMode\StrategyMode.csproj", "{E2AA131A-277A-4634-913B-3EA10072B91F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy_SimpleFactory", "Strategy_SimpleFactory\Strategy_SimpleFactory.csproj", "{4ED09D4F-9F0A-465B-A92E-D054474C93B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy_SimpleFactoryTests", "Strategy_SimpleFactoryTests\Strategy_SimpleFactoryTests.csproj", "{30417F93-A885-4ADE-B355-DC7A5BBEB113}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,14 @@ Global
 		{E2AA131A-277A-4634-913B-3EA10072B91F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2AA131A-277A-4634-913B-3EA10072B91F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2AA131A-277A-4634-913B-3EA10072B91F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED09D4F-9F0A-465B-A92E-D054474C93B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED09D4F-9F0A-465B-A92E-D054474C93B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED09D4F-9F0A-465B-A92E-D054474C93B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED09D4F-9F0A-465B-A92E-D054474C93B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30417F93-A885-4ADE-B355-DC7A5BBEB113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30417F93-A885-4ADE-B355-DC7A5BBEB113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30417F93-A885-4ADE-B355-DC7A5BBEB113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30417F93-A885-4ADE-B355-DC7A5BBEB113}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,5 +51,7 @@ Global
 		{BE882C29-9247-4C01-91E1-C89FB2501D59} = {6E2DF814-7980-44D7-86A0-5265B6F2A17A}
 		{06B2E201-AFB2-4EBC-BD2A-571BE3919647} = {6E2DF814-7980-44D7-86A0-5265B6F2A17A}
 		{E2AA131A-277A-4634-913B-3EA10072B91F} = {E34642AC-14D2-4FF4-8D9E-302A4674E227}
+		{4ED09D4F-9F0A-465B-A92E-D054474C93B2} = {E34642AC-14D2-4FF4-8D9E-302A4674E227}
+		{30417F93-A885-4ADE-B355-DC7A5BBEB113} = {E34642AC-14D2-4FF4-8D9E-302A4674E227}
 	EndGlobalSection
 EndGlobal
