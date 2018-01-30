@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy_SimpleFactory", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy_SimpleFactoryTests", "Strategy_SimpleFactoryTests\Strategy_SimpleFactoryTests.csproj", "{30417F93-A885-4ADE-B355-DC7A5BBEB113}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter_3", "Chapter_3", "{FB5ADDD5-23A4-423D-A473-A7AAE45EC980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple", "SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{99D6BF7A-25EE-4083-A722-CC24D13CDA64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,10 @@ Global
 		{30417F93-A885-4ADE-B355-DC7A5BBEB113}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30417F93-A885-4ADE-B355-DC7A5BBEB113}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30417F93-A885-4ADE-B355-DC7A5BBEB113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D6BF7A-25EE-4083-A722-CC24D13CDA64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D6BF7A-25EE-4083-A722-CC24D13CDA64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D6BF7A-25EE-4083-A722-CC24D13CDA64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D6BF7A-25EE-4083-A722-CC24D13CDA64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,5 +61,6 @@ Global
 		{E2AA131A-277A-4634-913B-3EA10072B91F} = {E34642AC-14D2-4FF4-8D9E-302A4674E227}
 		{4ED09D4F-9F0A-465B-A92E-D054474C93B2} = {E34642AC-14D2-4FF4-8D9E-302A4674E227}
 		{30417F93-A885-4ADE-B355-DC7A5BBEB113} = {E34642AC-14D2-4FF4-8D9E-302A4674E227}
+		{99D6BF7A-25EE-4083-A722-CC24D13CDA64} = {FB5ADDD5-23A4-423D-A473-A7AAE45EC980}
 	EndGlobalSection
 EndGlobal
