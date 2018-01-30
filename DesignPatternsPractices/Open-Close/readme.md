@@ -34,10 +34,6 @@
 
 代码详见：[简单工厂模式][2]
 
-----------
-
-TODO: 找一个例子练练手
-
 
   [1]: https://raw.githubusercontent.com/xbfighting/LearnDesignPatterns/master/DesignPatternsPractices/Images/C4/c4_uml_1.png
   [2]: https://github.com/xbfighting/LearnDesignPatterns/tree/master/DesignPatternsPractices/SimpleFactoryPattern
