@@ -9,9 +9,8 @@
 #### 1、开放-封闭原则（OCP）
 软件实体（类，模块，函数等等，应该可以扩展，但不可以修改。）
 
-### 对于扩展是开放的 Open fro extension
-### 对于改动是封闭的 Closed for modifcation
-
+##### 对于扩展是开放的 Open fro extension
+##### 对于改动是封闭的 Closed for modifcation
 
 > 我们在在做任何系统的时候，都不要指望一开始需求就确定，不再有变化，这是不现实也是不科学的想法，既然需求是一定会变化的，那么如何在面对需求的变化时，
 设计的软件可以相对容易修改，不至于说，新需求一来，就要把整个程序推到重来。
@@ -20,7 +19,25 @@
 
 > 面对需求，对程序的改动是通过增加新代码而不是更改现有代码。
 
+#### 2、要旨
+开放-封闭原则是面向对象设计的核心所在。遵循这个原则可以带来面向对象技术所生成的巨大好处。也就是**可维护、可扩展、可复用和灵活性好**。
+
+开发人员应该**仅对程序中呈现出频繁变化的部分**作出抽象。然而，对于应用程序中的每部分都刻意地进行抽象同样不是一个好主意。
+
+拒绝不成熟的抽象和抽象本身一样重要。切记切记。
+
+
+#### 3、此项目UML类图
+
+![此处输入图片的描述][1]
+
+
+代码详见：[简单工厂模式][2]
 
 ----------
 
 TODO: 找一个例子练练手
+
+
+  [1]: https://raw.githubusercontent.com/xbfighting/LearnDesignPatterns/master/DesignPatternsPractices/Images/C4/c4_uml_1.png
+  [2]: https://github.com/xbfighting/LearnDesignPatterns/tree/master/DesignPatternsPractices/SimpleFactoryPattern
