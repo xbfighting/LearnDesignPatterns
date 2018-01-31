@@ -29,6 +29,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter_5", "Chapter_5", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependenceInversionPrinciple", "DependenceInversionPrinciple\DependenceInversionPrinciple.csproj", "{246C7B88-CF68-4C0E-A209-952EC0B88451}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependenceInversionPrincipleTests", "DependenceInversionPrincipleTests\DependenceInversionPrincipleTests.csproj", "{C5ABB1ED-6FDC-4E86-91B1-C14DE6C50EDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{246C7B88-CF68-4C0E-A209-952EC0B88451}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{246C7B88-CF68-4C0E-A209-952EC0B88451}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{246C7B88-CF68-4C0E-A209-952EC0B88451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5ABB1ED-6FDC-4E86-91B1-C14DE6C50EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5ABB1ED-6FDC-4E86-91B1-C14DE6C50EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5ABB1ED-6FDC-4E86-91B1-C14DE6C50EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5ABB1ED-6FDC-4E86-91B1-C14DE6C50EDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,5 +86,6 @@ Global
 		{99D6BF7A-25EE-4083-A722-CC24D13CDA64} = {FB5ADDD5-23A4-423D-A473-A7AAE45EC980}
 		{E53F565D-D039-4B89-9A5F-E73C2C05AB4E} = {0164A98A-013C-429E-A12D-CB07DF018E6F}
 		{246C7B88-CF68-4C0E-A209-952EC0B88451} = {6753D113-AF12-47CE-8C6D-97DC7E7A8A64}
+		{C5ABB1ED-6FDC-4E86-91B1-C14DE6C50EDB} = {6753D113-AF12-47CE-8C6D-97DC7E7A8A64}
 	EndGlobalSection
 EndGlobal
