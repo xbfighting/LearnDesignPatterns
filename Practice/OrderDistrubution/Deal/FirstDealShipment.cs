@@ -1,4 +1,5 @@
-﻿using OrderDistrubution.Opeartor;
+﻿using System;
+using OrderDistrubution.Opeartor;
 
 namespace OrderDistrubution.Deal
 {
@@ -19,6 +20,7 @@ namespace OrderDistrubution.Deal
             operate.Op2("ShipmentGen");
             operate.Op3("ShipmentGen");
             operate.Default("ShipmentGen");
+            Console.WriteLine(dto);
         }
 
         /// <summary>
@@ -31,6 +33,7 @@ namespace OrderDistrubution.Deal
         {
             operate.Op2("BindShipment");
             operate.Op3("BindShipment");
+            Console.WriteLine(dto);
         }
     }
 }

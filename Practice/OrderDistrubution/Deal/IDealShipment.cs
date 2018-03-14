@@ -1,5 +1,4 @@
-﻿using System;
-using OrderDistrubution.Opeartor;
+﻿using OrderDistrubution.Opeartor;
 
 namespace OrderDistrubution.Deal
 {

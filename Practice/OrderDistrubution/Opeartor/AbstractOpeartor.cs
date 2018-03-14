@@ -17,7 +17,7 @@ namespace OrderDistrubution.Opeartor
         public virtual void Default(string str)
         {
             // 默认实现，大多的操作类这个动作都一样。
-            Console.WriteLine("Default Console.WriteLine Default 2!");
+            Console.WriteLine("Default Console.WriteLine Default!");
         }
     }
 }
