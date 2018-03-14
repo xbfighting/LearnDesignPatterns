@@ -16,7 +16,7 @@
 
 
 ### [个人项目用到的案例][2]
-
+#### [订单分配-装饰者模式][10]
 
   [1]: https://github.com/xbfighting/LearnDesignPatterns/tree/master/DesignPatternsPractices
   [2]: https://github.com/xbfighting/LearnDesignPatterns/tree/master/Practice
@@ -27,3 +27,4 @@
   [7]:https://github.com/xbfighting/LearnDesignPatterns/tree/master/DesignPatternsPractices/Singleton
   [8]:https://github.com/xbfighting/LearnDesignPatterns/tree/master/DesignPatternsPractices/StrategyMode
   [9]:https://github.com/xbfighting/LearnDesignPatterns/tree/master/DesignPatternsPractices/Strategy_SimpleFactory
+  [10]:https://github.com/xbfighting/LearnDesignPatterns/tree/master/Practice/OrderDistrubution
