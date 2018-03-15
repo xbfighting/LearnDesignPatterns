@@ -49,3 +49,5 @@
 |__DealShipmentFactory.cs
 
 ```
+
+本案例只是一个Demo，不包含上面提到的业务的具体实现。
